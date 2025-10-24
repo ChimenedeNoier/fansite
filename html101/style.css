@@ -1,0 +1,59 @@
+body{
+    background-color: blue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 33vh 33vh 33vh;
+
+}
+
+p{
+    color: blueviolet;
+}
+
+.myclass{
+    color: rgb(12, 173, 15);
+}
+
+#myid{
+    font-family:'Times New Roman', Times, serif
+}
+
+div{
+   
+    background-color: gold;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#spotify{
+    background-color: rgb(33, 24, 147);
+    background-image: url(img/IMG_3995-1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+
+}
+
+#nola{
+    background-color: beige;
+    /* background-image: url(img/vegan-fried-chicken-2.webp); */
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+#sem{
+    background-color: blueviolet;
+    /* background-image: url(img/spaghetti-bolognese_2.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
